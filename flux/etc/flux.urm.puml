@@ -99,8 +99,8 @@ package com.iluwatar.flux.dispatcher {
   }
 }
 MenuAction -->  "-menuItem" MenuItem
-MenuStore -->  "-selected" MenuItem
 Action -->  "-type" ActionType
+MenuStore -->  "-selected" MenuItem
 Dispatcher -->  "-instance" Dispatcher
 ContentView -->  "-content" Content
 Dispatcher -->  "-stores" Store

@@ -1,6 +1,6 @@
-/**
+/*
  * The MIT License
- * Copyright (c) 2014-2016 Ilkka Seppälä
+ * Copyright © 2014-2019 Ilkka Seppälä
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -20,39 +20,43 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 package com.iluwatar.semaphore;
 
 /**
- * Fruit is a resource stored in a FruitBowl. 
+ * Fruit is a resource stored in a FruitBowl.
  */
 public class Fruit {
 
-  public static enum FruitType {
+  /**
+   * Enumeration of Fruit Types.
+   */
+  public enum FruitType {
     ORANGE, APPLE, LEMON
   }
-    
+
   private FruitType type;
-    
+
   public Fruit(FruitType type) {
     this.type = type;
   }
-    
+
   public FruitType getType() {
     return type;
   }
-  
+
   /**
-   * toString method
-   */ 
+   * toString method.
+   */
   public String toString() {
     switch (type) {
       case ORANGE:
         return "Orange";
-      case APPLE: 
+      case APPLE:
         return "Apple";
-      case LEMON: 
+      case LEMON:
         return "Lemon";
-      default: 
+      default:
         return "";
     }
   }

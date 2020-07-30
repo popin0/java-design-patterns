@@ -33,10 +33,8 @@ package com.iluwatar.command {
     + undo()
   }
   enum Size {
-    + LARGE {static}
     + NORMAL {static}
     + SMALL {static}
-    + UNDEFINED {static}
     - title : String
     + toString() : String
     + valueOf(name : String) : Size {static}
@@ -56,7 +54,6 @@ package com.iluwatar.command {
   }
   enum Visibility {
     + INVISIBLE {static}
-    + UNDEFINED {static}
     + VISIBLE {static}
     - title : String
     + toString() : String

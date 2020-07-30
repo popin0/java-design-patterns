@@ -52,19 +52,19 @@ package com.iluwatar.intercepting.filter {
     - contactNumber : String
     - depositNumber : String
     - name : String
-    - order : String
+    - orderItem : String
     + Order()
     + Order(name : String, contactNumber : String, address : String, depositNumber : String, order : String)
     + getAddress() : String
     + getContactNumber() : String
     + getDepositNumber() : String
     + getName() : String
-    + getOrder() : String
+    + getOrderItem() : String
     + setAddress(address : String)
     + setContactNumber(contactNumber : String)
     + setDepositNumber(depositNumber : String)
     + setName(name : String)
-    + setOrder(order : String)
+    + setOrderItem(order : String)
   }
   class OrderFilter {
     + OrderFilter()

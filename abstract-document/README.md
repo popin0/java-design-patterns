@@ -3,18 +3,15 @@ layout: pattern
 title: Abstract Document
 folder: abstract-document
 permalink: /patterns/abstract-document/
-pumlid: PSjB3eCm34NHhPG599vtDyQn85L-ifzX-p3lxEf8Twj3MXGDQvyJMFubChxpKN767gucSq07iinEjSNDOACVNvoAUZr6MWoe3QVE_WRnxZ0Mf38b-hkIGlurX_MyehS7
 categories: Structural
 tags: 
- - Java
- - Difficulty-Intermediate
+ - Extensibility
 ---
 
 ## Intent
 Achieve flexibility of untyped languages and keep the type-safety 
 
-![alt text](./etc/abstract-document-base.png "Abstract Document Base")
-
+## Class diagram
 ![alt text](./etc/abstract-document.png "Abstract Document Traits and Domain")
 
 

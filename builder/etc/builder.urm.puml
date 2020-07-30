@@ -89,9 +89,9 @@ package com.iluwatar.builder {
 Hero -->  "-profession" Profession
 Builder ..+ Hero
 Hero -->  "-armor" Armor
+Builder -->  "-hairColor" HairColor
 Builder -->  "-weapon" Weapon
 Builder -->  "-hairType" HairType
-Builder -->  "-hairColor" HairColor
 Hero -->  "-hairColor" HairColor
 Builder -->  "-profession" Profession
 Hero -->  "-weapon" Weapon

@@ -10,7 +10,7 @@ package com.iluwatar.chain {
     + toString() : String
   }
   class OrcKing {
-    ~ chain : RequestHandler
+    - chain : RequestHandler
     + OrcKing()
     - buildChain()
     + makeRequest(req : Request)
@@ -52,8 +52,8 @@ package com.iluwatar.chain {
     + values() : RequestType[] {static}
   }
 }
-RequestHandler -->  "-next" RequestHandler
 OrcKing -->  "-chain" RequestHandler
+RequestHandler -->  "-next" RequestHandler
 Request -->  "-requestType" RequestType
 OrcCommander --|> RequestHandler 
 OrcOfficer --|> RequestHandler 
